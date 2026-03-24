@@ -1,6 +1,8 @@
-#Drone Object Detection System
+🚀 Drone Object Detection System
 📌 Overview
-This project implements a real-time drone surveillance system using YOLOv8, OpenCV, and DeepSORT. It detects, tracks, and analyzes objects from a live camera feed, simulating core functionalities used in defense-grade UAV systems.
+
+This project implements a real-time drone surveillance system using YOLOv8, OpenCV, and DeepSORT.
+It detects, tracks, and analyzes objects from a live camera feed, simulating functionalities used in defense-grade UAV systems.
 
 ✨ Key Features
 🎯 Real-time Object Detection (YOLOv8)
@@ -11,43 +13,51 @@ This project implements a real-time drone surveillance system using YOLOv8, Open
 🛰️ Drone Movement Simulation (Keyboard Control)
 🎥 Live Video Processing + Recording
 🧠 Tech Stack
-  Python
-  OpenCV
-  YOLOv8 (Ultralytics)
-  DeepSORT Tracker
-  NumPy
+Python
+OpenCV
+YOLOv8 (Ultralytics)
+DeepSORT
+NumPy
 📁 Project Structure
 DRONE/
-  │── main.py
-  │── detector.py
-  │── utils.py
-  │── output/
-  │── requirements.txt
-
+│── main.py
+│── detector.py
+│── utils.py
+│── output/
+│── requirements.txt
 ⚙️ Installation
 1. Clone Repository
-  git clone https://github.com/yourusername/drone-object-detection.git
-  cd drone-object-detection
+git clone https://github.com/SHRUTI-BARUA/DRONE_OBJECT_DETECTION.git
+cd DRONE_OBJECT_DETECTION
 2. Create Virtual Environment
-  python -m venv venv
-  venv\Scripts\activate   # Windows
+python -m venv venv
+venv\Scripts\activate   # Windows
 3. Install Dependencies
-  pip install -r requirements.txt
-4. Run the Project
-  python main.py
+pip install -r requirements.txt
+▶️ Run the Project
+python main.py
 🎮 Controls
-Key	Action:
+Key	Action
 L	Lock Target 🎯
 W	Move Forward
 S	Move Backward
 A	Move Left
 D	Move Right
 ESC	Exit
-
+🧪 System Validation
+✔ Detection tested with real-world objects
+✔ Tracking verified using consistent object IDs
+✔ Target lock validated through persistent tracking
+✔ Distance estimation checked with object movement
+✔ Threat classification dynamically updates
+📸 Output
+Live detection window
+Saved video:
+output/output.mp4
 📌 Use Cases
 Defense Surveillance Systems
 Smart Security Monitoring
 Autonomous Drone Research
+👨‍💻 Author
 
-Author:
-SHRUTI
+Shruti Barua
